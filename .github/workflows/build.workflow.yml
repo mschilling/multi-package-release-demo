@@ -20,4 +20,4 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: nx affected:build
+        run: npx nx affected:build
