@@ -1,6 +1,8 @@
 {
   "version": 2,
-  "projects": {},
+  "projects": {
+    "easy-logger": "packages/easy-logger"
+  },
   "cli": {
     "defaultCollection": "@nrwl/workspace"
   }
