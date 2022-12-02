@@ -11,6 +11,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "release": {
-    "branches": ["master", "next", "feature/*"]
+    "branches": ["main", "next"]
   }
 }
