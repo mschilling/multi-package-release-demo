@@ -1,4 +1,16 @@
 {
   "name": "@mschilling/demo-easy-logger",
-  "version": "0.0.1"
+  "version": "0.0.0-semantic-release",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mschilling/multi-package-release-demo.git",
+    "directory": "packages/easy-logger"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "release": {
+    "branches": ["master", "next", "feature/*"]
+  }
 }
